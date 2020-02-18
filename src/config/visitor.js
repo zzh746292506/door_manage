@@ -4,7 +4,7 @@ import {
 } from '@/layouts'
 const VisitorRecord = resolve => require(['@/views/visitorManage/VisitorRecord.vue'], resolve)
 const VisitorSet = resolve => require(['@/views/visitorManage/VisitorSet.vue'], resolve)
-const project = {
+const visitor = {
   path: '/visitorRecord',
   name: 'visitorRecord',
   component: RouteView,
@@ -28,4 +28,4 @@ const project = {
   }]
 }
 
-export default project
+export default visitor
